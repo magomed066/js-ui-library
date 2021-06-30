@@ -8,4 +8,5 @@ import $ from './lib/lib'
 // 	console.log($(this).index())
 // })
 
-console.log($('div').eq(2).find('.some').addClass('active'))
+// console.log($('div').eq(2).find('.some').addClass('active'))
+console.log($('.more').eq(0).siblings())
