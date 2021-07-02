@@ -9,4 +9,6 @@ import $ from './lib/lib'
 // })
 
 // console.log($('div').eq(2).find('.some').addClass('active'))
-console.log($('.more').eq(0).siblings())
+// console.log($('.more').eq(0).siblings())
+
+$('.some').fadeOut(1800)
